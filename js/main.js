@@ -12,11 +12,11 @@ function verfica() {
 
     if (id == "") {
         let paragraph = document.getElementsByClassName('result1');
-        paragraph.innerHTML = 'Senha/Password invalidos ';
+        paragraph.innerHTML = 'Campo Obrigatorio ';
     }
     if (pass == "") {
         let paragraph = document.getElementsByClassName('result2');
-        paragraph.innerHTML = 'Senha/Password invalidos ';
+        paragraph.innerHTML = 'Campo Obrigatorio ';
     }
     if (id || senha == "") {
         let paragraph = document.getElementsByClassName('result2');
