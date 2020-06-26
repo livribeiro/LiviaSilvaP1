@@ -1,0 +1,31 @@
+div.content {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form input[type="number"] {
+    width: 90%;
+}
+
+div.fields {
+    margin-bottom: 10px;
+}
+
+span.error {
+    color: red;
+}
+
+span.hide {
+    display: none;
+}
+
+#btnlogin {
+    align-items: center;
+}
